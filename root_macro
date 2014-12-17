@@ -432,7 +432,7 @@ void histoaawwemut()
 	  int ie_maxpt = -1.;     
 	  double e_pt_max=0.;
 	  for(int ie = 0; ie < n_e; ++ie) {
-	    if( e_pt[ie] > e_pt_max && e_pt[ie]){
+	    if( e_pt[ie] > e_pt_max){
 	      ie_maxpt = ie;
 	      e_pt_max = e_pt[ie];
 	    }   
